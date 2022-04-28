@@ -94,7 +94,7 @@ nav .nav-content-mobile-view{
     position: fixed;
     top: 0;
     right: 0;
-    background: blueviolet;
+    background: rgb(25, 22, 63);
     z-index: 10;
 }
 nav .nav-content-mobile-view .logo{
@@ -325,11 +325,11 @@ nav .nav-content-mobile-view .signup-btn:hover{
     }
     nav .nav-content-mobile-view{
         display: flex;
-        top: -101%;
+        right: -101%;
         transition: all 0.8s;
     }
     #check:checked ~ .nav-content-mobile-view{
-        top: 0;
+        right: 0;
         transition: all 0.8s;
     }
     #check:checked ~ .nav-content-mobile-view .logo{
